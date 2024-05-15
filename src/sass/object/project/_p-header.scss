@@ -1,0 +1,21 @@
+@use "global" as *;
+
+.p-header {
+    width: 100%;
+    padding: myrem(20) 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: $white;
+    text-align: center;
+    @include mq (md) {
+        padding: myrem(36) 0;
+    }
+}
+
+.p-header__logo {
+    @include mq (md) {
+font-size: myrem(55);
+    }
+}

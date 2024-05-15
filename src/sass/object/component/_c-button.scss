@@ -1,0 +1,16 @@
+@use "global" as *;
+
+.c-button {
+    font-size: myrem(14);
+    color: $blue;
+    border: 1px solid $blue;
+    display: block;
+        text-align: center;
+    max-width: myrem(335);
+    width: 100%;
+    padding: myrem(13) myrem(71);
+    margin: 0 auto;
+    @include mq (md) {
+        max-width: myrem(220);
+}
+}

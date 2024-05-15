@@ -1,0 +1,16 @@
+@use "global" as *;
+
+.p-first-view {
+    margin-top: myrem(91);
+    width: 100vw;
+    height: 51vh;
+    background-image: url(../images/sp_main-visual.jpg);
+    background-size: cover;
+            background-repeat: no-repeat;
+
+    @include mq(md) {
+        margin-top: myrem(155);
+        height: 54vh;
+        background-image: url(../images/pc_main-visual.jpg);
+    }
+}

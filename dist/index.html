@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <meta name="format-detection" content="telephone=no" />
   <!-- meta情報 -->
-  <title>タイトル</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <title>Sky Coffee</title>
+  <meta name="description" content="Sky Coffeeのホームページです" />
+  <meta name="keywords" content="website" />
   <!-- ogp -->
-  <meta property="og:title" content="" />
+  <meta property="og:title" content="Sky Coffee" />
   <meta property="og:type" content="" />
   <meta property="og:url" content="" />
   <meta property="og:image" content="" />
   <meta property="og:site_name" content="" />
   <meta property="og:description" content="" />
   <!-- ファビコン -->
-  <link rel="icon" href="" />
+  <link rel="icon" href=".images/dummy1.jpg" />
   <!-- css -->
   <link rel="stylesheet" href="./css/styles.css">
   <!-- JavaScript -->
@@ -24,8 +24,105 @@
   <script defer src="./js/script.js"></script>
 </head>
 <body>
-  <div class="l-inner">
-    <p class="p-test">TOPページです</p>
+  <header class="p-header">
+    <h1 class="p-header__logo"><a href="#">Sky Coffee</a></h1>
+    </header>
+
+  <div class="p-first-view">
   </div>
+<nav class="p-global-nav">
+  <ul class="p-global-nav__list">
+    <li class="p-global-nav__item"><a href="#">menu</a></li>
+    <li class="p-global-nav__item"><a href="#">blog</a></li>
+    <li class="p-global-nav__item"><a href="#">access</a></li>
+  </ul>
+</nav>
+
+
+  <main>
+    <div class="p-main-view">
+      <div class="p-main-view__image">
+        <img src="./images/concept.jpg" alt="">
+      </div>
+      <div class="p-main-view__box">
+        <h3 class="p-main-view__title">Concept</h3>
+        <p class="p-main-view__catch">心静かにコーヒーを</p>
+        <p class="p-main-view__text">立ち止まって、<br>
+空の青さを眺めて、<br>
+一息つきましょう</p>
+      </div>
+    </div>
+    <section class="p-blog">
+      <h2 class="p-blog__title">blog</h2>
+      <h3 class="p-blog__catch">ブログ</h3>
+
+      <div class="p-blog__cards">
+        <a href="#">
+        <div class="p-blog__card">
+          <div class="p-blog__image">
+            <img src="./images/thumbnail01.jpg" alt="">
+          </div>
+          <p class="p-blog__card-title">コーヒーカー始めました。</p>
+          <p class="p-blog__time">2030.08.08</p>
+        </div>
+        </a>
+        <a href="#">
+        <div class="p-blog__card">
+          <div class="p-blog__image">
+            <img src="./images/thumbnail02.jpg" alt="">
+          </div>
+          <p class="p-blog__card-title">濃厚クリーミーなミルクをどうぞ</p>
+          <p class="p-blog__time">2030.08.05</p>
+        </div>
+        </a>
+        <a href="#">
+        <div class="p-blog__card">
+          <div class="p-blog__image">
+            <img src="./images/thumbnail03.jpg" alt="">
+          </div>
+          <p class="p-blog__card-title">Sky Coffeeのオリジナル曲が完成!無料ダウン
+ロード可能です。</p>
+          <p class="p-blog__time">2030.08.02</p>
+        </div>
+        </a>
+        <a href="#">
+        <div class="p-blog__card">
+          <div class="p-blog__image">
+            <img src="./images/thumbnail04.jpg" alt="">
+          </div>
+          <p class="p-blog__card-title">ハイキング用のコーヒーを販売中です。</p>
+          <p class="p-blog__time">2030.07.28</p>
+        </div>
+        </a>
+        <a href="#">
+        <div class="p-blog__card">
+          <div class="p-blog__image">
+            <img src="./images/thumbnail05.jpg" alt="">
+          </div>
+          <p class="p-blog__card-title">ショップの壁を塗ってみました。</p>
+          <p class="p-blog__time">2030.07.27</p>
+        </div>
+        </a>
+        <a href="#">
+        <div class="p-blog__card">
+          <div class="p-blog__image">
+            <img src="./images/thumbnail06.jpg" alt="">
+          </div>
+          <p class="p-blog__card-title">ブログをはじめました。</p>
+          <p class="p-blog__time">2030.07.26</p>
+        </div>
+        </a>
+      </div>
+
+      <a class="c-button" href="#">
+ブログ一覧
+      </a>
+    </section>
+</main>
+
+<footer class="p-footer">
+<p class="p-footer__logo">Sky Coffee</p>
+<small>&copy; Sky Coffee</small>
+</footer>
 </body>
 </html>

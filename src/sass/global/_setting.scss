@@ -8,12 +8,13 @@ $padding-pc: 25px;
 $padding-sp: 20px;
 
 // フォント
-$font-main: "";
-$font-sub: "";
+$font-main: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+$font-sub: "fot-tsukuardgothic-std", sans-serif;
 
 // 色指定
 $black: #333;
 $white: #fff;
+$blue: #24A8BF;
 
 // ブレイクポイント
 $breakpoints: (

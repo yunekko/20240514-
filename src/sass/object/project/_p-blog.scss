@@ -1,0 +1,63 @@
+@use "global" as *;
+
+.p-blog {
+    padding: myrem(25) 0;
+    @include mq (md) {
+        padding: myrem(104) 0 myrem(27);
+    }
+}
+
+.p-blog__cards {
+    padding: myrem(23) myrem(20);
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: myrem(17);
+    @include mq (md) {
+        max-width: 1110px;
+        margin: 0 auto myrem(10);
+        padding: myrem(23) 0;
+            grid-template-columns: repeat(3, 1fr);
+            gap: myrem(31);
+
+    }
+}
+
+.p-blog__card {
+    max-width: myrem(335);
+    width: 100%;
+    @include mq (md) {
+            max-width: myrem(350);
+
+    }
+}
+
+.p-blog__title {
+    font-size: myrem(30);
+    font-weight: bold;
+    color: $blue;
+text-align: center;
+@include mq (md) {
+    font-size: myrem(32);
+}
+}
+
+.p-blog__catch {
+    font-size: myrem(12);
+    text-align: center;
+    @include mq (md) {
+        font-size: myrem(13);
+    }
+}
+
+.p-blog__card-title {
+    padding: myrem(13) 0 0;
+    font-size: myrem(15);
+    @include mq (md) {
+            padding: myrem(21) 0 0;
+
+    }
+}
+
+.p-blog__time {
+    font-size: myrem(12);
+}

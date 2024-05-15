@@ -1,0 +1,28 @@
+@use "global" as *;
+
+.p-footer {
+    margin-top: myrem(22);
+    padding: myrem(54) 0 myrem(15);
+    background-color: $black;
+}
+
+.p-footer__logo {
+    font-size: myrem(20);
+    color: $white;
+    text-align: center;
+    @include mq (md) {
+            font-size: myrem(40);
+
+    }
+}
+
+small {
+    padding: myrem(30) 0 0;
+    color: $white;
+    text-align: center;
+    display: block;
+    @include mq (md) {
+            padding: myrem(30) 0 myrem(30);
+
+    }
+}

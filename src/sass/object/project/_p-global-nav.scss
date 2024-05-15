@@ -1,0 +1,22 @@
+@use "global" as *;
+
+.p-global-nav {
+    padding: myrem(23);
+    @include mq (md) {
+        padding: myrem(29);
+    }
+}
+
+.p-global-nav__list {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ column-gap: myrem(50);
+ @include mq (md) {
+     column-gap: myrem(84);
+ }
+}
+
+.p-global-nav__item {
+    font-size: myrem(18);
+}
