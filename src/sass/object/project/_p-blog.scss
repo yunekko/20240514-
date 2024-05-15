@@ -31,6 +31,10 @@
     }
 }
 
+.animate__animated {
+  opacity: 0;
+}
+
 .p-blog__title {
     font-size: myrem(30);
     font-weight: bold;
